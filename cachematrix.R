@@ -4,6 +4,9 @@
 # been computed. If so, the cached inverse is returned. If not, the inverse is
 # calculated and stored in cache. 
 
+# Thanks go to Pavel Kirjanas and Bill Hilton for their great posts on the
+# discussion forum: https://class.coursera.org/rprog-016/forum/thread?thread_id=96
+
 makeCacheMatrix <- function(x = matrix()) {      # Input x is a matrix.
         
         inv <- NULL     #  'inv' will be the inverse of x. It is reset to NULL 
